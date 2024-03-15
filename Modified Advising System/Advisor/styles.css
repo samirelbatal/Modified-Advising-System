@@ -1,0 +1,445 @@
+﻿/* styles.css */
+
+/* Apply styles to the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  
+}
+
+/* Apply styles to the form container */
+/* Apply styles to the form container */
+#form1 {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: rgba(255, 255, 255, 0.5); /* 50% opacity white background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center align content within the form */
+    position: relative;
+    z-index: 1;
+}
+
+
+
+    /* Apply styles to the title */
+    #form1 div {
+        font-size: 24px;
+        background-color: rgba(255, 255, 255, 0.5);
+        /*   font-weight: bold; /* Make the text bold */
+    }
+
+    /* Apply styles to the textboxes */
+    #form1 input[type="text"],
+    #form1 input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 4px ;
+        box-sizing: border-box;
+     
+    }
+
+
+    /* Apply styles to the button */
+    #form1 #Button1 {
+        background-color: #4caf50;
+        color: #fff;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+        #form1 #Button1:hover {
+            background-color: #45a049;
+        }
+
+/* Apply additional styles as needed */
+/* styles.css */
+
+/* Apply styles to the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+   
+}
+
+/* Apply styles to the form container */
+#form1 {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center align content within the form */
+}
+
+    /* Apply styles to the title */
+    #form1 div {
+        font-size: 24px;
+    }
+
+    /* Apply styles to the hyperlinks */
+    #form1 a {
+        display: block;
+        margin-bottom: 10px;
+        padding: 10px;
+        text-decoration: none;
+        background-color: #4caf50;
+        color: #fff;
+        border-radius: 4px;
+        transition: background-color 0.3s ease;
+    }
+
+        #form1 a:hover {
+            background-color: #45a049;
+        }
+
+/* Apply additional styles as needed */
+/* styles.css */
+
+/* Apply styles to the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+
+}
+
+/* Apply styles to the form container */
+/* styles.css */
+
+/* Apply styles to the form container */
+#form1 {
+    max-width: 800px;
+   
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    top: 0px;
+    left: 0px;
+}
+
+
+    /* Apply styles to the title */
+    #form1 div {
+        font-size: 15px;
+        word-spacing:5px;
+    }
+
+    /* Apply styles to the dropdown list */
+    /* styles.css */
+
+    /* Apply styles to the dropdown list */
+    #form1 select {
+        width: 100%; /* Change this to a fixed width if needed */
+        max-width: 100%; /* Ensure it doesn't expand the form */
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+
+    /* Apply styles to the button */
+    #form1 #Button1  {
+        background-color: #4caf50;
+        color: #fff;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+        #form1 #Button1:hover {
+            background-color: #45a049;
+        }
+
+/* Apply additional styles as needed */
+/* styles.css */
+
+/* Apply styles to the table */
+/* Apply styles to the table */
+table {
+    width: 80%; /* Adjust the width as needed */
+    margin: 20px ; /* Center the table */
+    padding-left:50px;
+}
+
+/* Apply styles to table headers */
+th {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 8px; /* Adjust padding as needed */
+    text-align: left;
+}
+
+/* Apply styles to table cells */
+td {
+    border: 1px solid #ddd;
+    padding: 8px; /* Adjust padding as needed */
+}
+
+/* Apply styles to alternate rows for better readability */
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Apply styles to the textboxes */
+#form1 input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+/* styles.css */
+
+#form1 .SignOutLink {
+    background-color: #fff !important;
+    color: #000 !important;
+    padding: 10px 15px !important;
+    border: none !important;
+    border-radius: 4px !important;
+    cursor: pointer !important;
+    margin-top: 20px !important;
+    transition: background-color 0.3s ease !important;
+}
+
+    #form1 .SignOutLink:hover {
+        background-color: #eee !important;
+    }
+
+
+
+    #form1 #Delete:hover {
+        background-color: #45a049;
+    }
+#form1 input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+/* styles.css */
+
+/* Apply styles to the LoginButton */
+#LoginButton {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    #LoginButton:hover {
+        background-color: #45a049;
+    }
+/* styles.css */
+
+
+/* Other styles... */
+
+/* Apply styles to the Go Back button */
+#goBackButton {
+    background-color: #ccc;
+    color: #333;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    #goBackButton:hover {
+        background-color: #999;
+    }
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  
+}
+/* Improved Sidebar Styles with Icon Buttons */
+
+.sidebar {
+    height: 100%;
+    width: 40px;
+    position:fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #4caf50;
+    overflow-x: hidden;
+    transition: width 0.5s;
+}
+
+    .sidebar:hover {
+        width: 275px;
+    }
+
+    .sidebar a {
+        text-decoration: none;
+        color: #ecf0f1;
+        display: flex;
+        align-items: center; /* Align text and icon vertically */
+        padding: 15px;
+        transition: padding 0.5s, color 0.5s;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+
+    .sidebar:hover a {
+        padding: 15px;
+        color: #fff;
+    }
+
+    .sidebar a:hover {
+        color: #f39c12;
+    }
+
+    .sidebar .sublist {
+        padding-left: 10px;
+    }
+
+        .sidebar .sublist ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+            .sidebar .sublist ul li {
+                margin-bottom: 5px;
+                overflow: hidden;
+                padding-left: 15px;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                font-size:smaller;
+            }
+
+    /* Icon Styles */
+    .sidebar a i {
+        margin-right: 10px;
+        font-size: 18px;
+        color: #bdc3c7;
+    }
+
+    .sidebar:hover a i {
+        color: #ecf0f1;
+    }
+
+/* Apply styles to the RegisterButton */
+.register-button {
+    background-color: #fff !important;
+    color: #4caf50 !important;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.register-button:hover {
+    background-color: #f1f1f1 !important;
+}
+
+
+/* Apply styles to the LoginButton */
+#LoginButton {
+    background-color: #fff !important;
+    color: #4caf50 !important;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+    #LoginButton:hover {
+        background-color: #f1f1f1 !important;
+    }
+/* styles.css */
+#form1 .common-button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    #form1 .common-button:hover {
+        background-color: #45a049;
+    }
+.styled-message {
+    text-align: center;
+  
+    background-color: #eee;
+    font-size:larger
+}
+
+/* Apply styles to the textboxes */
+/* styles.css */
+
+/* Other styles */
+
+#advisorLogin {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Additional styling for the table container if needed */
+
+.styled-table {
+    width: 100%;
+    position:center;
+    padding:30px;
+    padding-right:40px;
+    
+
+    /* Add other styling properties as needed */
+}
+/* styles.css */
+
+/* ... (existing styles) */
+
+/* Apply styles to the form with the ID 'requestForm' */
+#requestForm {
+    max-width: 800px; /* Adjust the width as needed */
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff; /* Set the background color to white */
+}
+
+#form1.special-width {
+    width: 250px !important;
+    
+}
